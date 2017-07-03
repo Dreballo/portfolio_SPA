@@ -1,4 +1,7 @@
 $( document ).ready(function(){
-    $("#button-collapse").sideNav();
+    //side nav
+    $('#button-collapse').sideNav();
+    //parallax image background
     $('#parallax').parallax();
+
 });

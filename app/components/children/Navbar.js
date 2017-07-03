@@ -5,7 +5,7 @@ var Navbar = React.createClass({
     render: function(){
         return(
         <div className="navbar-fixed">
-            <nav className="black" role="navigation">
+            <nav className="black" role="navigation" id="bar">
                 <div className="container">
                     <div className="nav-wrapper">
                         <ul id="nav-mobile" className="side-nav">

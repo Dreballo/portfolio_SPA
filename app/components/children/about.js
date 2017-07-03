@@ -14,7 +14,7 @@ var About = React.createClass({
                                 <h4 className="center">ABOUT ANDRE</h4>
                             <div className="divider"/>
                             <p>I am an engineer who enjoys developing complex applications for the web. I'm originally from Orlando, FL and graduated from the University of Central Florida's Graduate School of Business in 2012. </p>
-                            <p>My passion for utilizing emerging technology for business solutions has led me to learn how to code. I've worked on several full stack projects that utilize the latest web techologies such as: </p>
+                            <p>My passion for utilizing emerging technology for business solutions has led me to learn how to code. I've worked on several full stack projects that utilize some of the web's most powerful languages, libraries, and frameworks. </p>
                             <div className="section">
                             <div className="container col s12 ">
                                 <div className="chip">
@@ -75,6 +75,18 @@ var About = React.createClass({
                                 <div className="chip">
                                     <i className="mdi mdi-github-circle"> </i>
                                     Github
+                                </div>
+                                <div className="chip">
+                                    <i className="mdi mdi-json"> </i>
+                                    JSON
+                                </div>
+                                <div className="chip">
+                                    <i className="mdi mdi-web"> </i>
+                                    API Development & Consumption
+                                </div>
+                                <div className="chip">
+                                    <i className="mdi mdi-language-php"> </i>
+                                    Laravel
                                 </div>
 
                             </div>

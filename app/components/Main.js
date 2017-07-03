@@ -29,7 +29,7 @@ var Main = React.createClass({
                 </div>
 
                     <About/>
-
+                <h5 className="center white-text" id="projects">Featured Projects</h5>
                     <Projects/>
 
                 <Footer/>

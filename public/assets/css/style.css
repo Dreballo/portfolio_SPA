@@ -23,9 +23,14 @@ video {
     transform: translateX(-50%) translateY(-50%);
 }
 
-footer, nav{
+#bar{
     opacity: .5;
 }
+
+#nav-mobile{
+    opacity: .9;
+}
+
 
 /* social links on the intro block */
 #intro-social {
@@ -34,7 +39,7 @@ footer, nav{
 }
 
 /*Title heading*/
-#title-name {
+#title-name, #projects {
     font-family: 'Amatic SC', cursive;
     font-size: 6em;
 }
