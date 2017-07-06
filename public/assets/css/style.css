@@ -39,9 +39,13 @@ video {
 }
 
 /*Title heading*/
-#title-name, #projects {
+#title-name, #projects, #contact {
     font-family: 'Amatic SC', cursive;
     font-size: 6em;
+}
+
+#projects, #contact {
+    margin-top: 15vh;
 }
 
 #title-container{

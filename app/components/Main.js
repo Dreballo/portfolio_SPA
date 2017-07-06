@@ -14,6 +14,8 @@ var Title = require('./children/title');
 var About = require('./children/about');
 //Import projects
 var Projects = require('./children/projects');
+//Import contact form
+var Contact = require('./children/contact');
 
 
 //Creating the main component
@@ -22,6 +24,7 @@ var Main = React.createClass({
     render: function (){
         return(
             <div id="main">
+                <a name="home"> </a>
                 <Navbar/>
                 <div className="container wrapper valign-wrapper">
                     <Landing />
@@ -31,6 +34,10 @@ var Main = React.createClass({
                     <About/>
                 <h5 className="center white-text" id="projects">Featured Projects</h5>
                     <Projects/>
+
+                <h5 className="center white-text" id="contact">Let's Collaborate</h5>
+
+                <Contact />
 
                 <Footer/>
                 <FloatBtn />

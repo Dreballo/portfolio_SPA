@@ -4,7 +4,8 @@ var About = React.createClass({
     render: function (){
         return(
 
-            <div className="col s12 card-panel grey lighten-5 z-depth-1">
+            <div className="col s12 m6 card-panel grey lighten-5 z-depth-1">
+                <a name="about"> </a>
                 <div className="container">
                     <div className="row">
                         <div className="col s4">
@@ -43,14 +44,14 @@ var About = React.createClass({
                                 </div>
                                 <div className="chip">
                                     <i className="mdi mdi-react"> </i>
-                                    React.js
+                                    React
                                 </div>
                                 <div className="chip">
                                     <i className="mdi mdi-database"> </i>
                                     MySQL
                                 </div>
                                 <div className="chip">
-                                    <i className="mdi mdi-database"> </i>
+                                    <i className="mdi mdi-leaf"> </i>
                                     MongoDB
                                 </div>
                                 <div className="chip">
