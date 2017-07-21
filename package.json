@@ -16,6 +16,8 @@
   "author": "Andre Seballo",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.17.2",
+    "path": "^0.12.7",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },
