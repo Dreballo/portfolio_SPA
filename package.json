@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "Single page portfolio",
   "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "prod": "NODE_ENV=production node server.js",
+    "start": "webpack-dev-server --progress --inline --hot"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Dreballo/professional-portfolio.git"
